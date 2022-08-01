@@ -1,10 +1,10 @@
-# This is a program to determine whether a year is a leap year(>1500)
+#This is a program to determine whether a given year is a leap year
 
 
 while True:
     leapYear = int(input("enter the year: "))
 
-    if leapYear >= 1500:
+    if leapYear >= 1000:
         if leapYear % 4 == 0:
             if leapYear % 100 == 0:
                 if leapYear % 400 == 0:
